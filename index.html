@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar1.png" alt="Latika Verma" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Latika Verma">Latika Verma</h1>
+
+          <p class="title">Software developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+              <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                  <p class="contact-title">Email</p>
+
+                  <a href="mailto:latika.verma2023@gmail.com"
+                      class="contact-link">latika.verma2023@gmail.com</a>
+              </div>
+
+          </li>
+
+          <li class="contact-item">
+
+              <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+
+                  <a href="tel:+91 9354062721" class="contact-link">+91 9354062721 </a>
+              </div>
+
+          </li>
+
+          <li class="contact-item">
+
+              <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                  <p class="contact-title">Location</p>
+
+                  <address>Greater Noida, Uttar Pradesh, India</address>
+              </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/latikaverma7/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Latika93" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <img src="path/to/leetcode-icon.png" alt="LeetCode">
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>DSA</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">My Story</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a tech enthusiast with a focus on React.js and Node.js.
+          </p>
+
+          <p>
+            I've had the privilege of developing a strong foundation in React.js during my time of Internship as
+            a 2023 graduate. I take pride in my problem-solving skills, particularly when it comes to data
+            structures and algorithms. I'm now seeking an opportunity to join a visionary team and further
+            refine my abilities while making a positive contribution.
+          </p>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React.js + Next.js</h5>
+              </div>
+
+              <hr class="yellow-hr">
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js + Express.js</h5>
+              </div>
+
+              <hr class="yellow-hr">
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+              </div>
+              <hr class="yellow-hr">
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+              </div>
+              <hr class="yellow-hr">
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+              </div>
+
+              <hr class="yellow-hr">
+
+            </li>
+          </ul>
+
+        </section>
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li> -->
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Experiences
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Worked with ... </h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <!-- <img src="https://www.bing.com/th?id=OIP.wVzpWXVV-Itebk5kRtq3bAAAAA&w=195&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="40" style="padding: 20px;" alt="Daniel lewis" data-testimonials-avatar> -->
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title data-testimonials-avatar>Jellyfish Technologies</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <ol>
+                    <li>• Collaborated on API design, development, and integration.</li>
+                    <li>• Improved codebase with Redux, reducing multi-level props
+                      drilling by around 20-30 %.</li>
+                    <li>• Contributed to Data Verification, API Integration, and 7- 8
+                      React.js Component Design.</li>
+                  </ol>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <!-- <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Desiqna" width="60" >
+                </figure> -->
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title data-testimonials-avatar>Desiqna</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <ul>
+                    <li> • ManagedUser Verification/Authentication and engineered
+                      solutions for detecting and removing fake bots and posts.
+                    </li>
+                    <li>• Successfully integrated Google Recaptcha, enhancing website
+                      security by 50 to 60 %.</li>
+                    <li>• Proficiently utilized the tech stack: HTML, CSS, JS, Bootstrap,
+                      PHP, MySQL</li>
+                  </ul>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <!-- <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" >
+              </figure> -->
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" >
+            </div>
+
+            <div class="modal-content" data-modal-img>
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <hr class="yellow-hr">
+              <!-- <time datetime="2021-06-14">Nov 2022 - July 2023</time> -->
+              <div style="margin: 20px 0;"></div>
+              <div data-modal-text>
+                <ol>
+                  <li>• Collaborated on API design, development, and integration.</li>
+                  <li>• Improved codebase with Redux, reducing multi-level props
+                    drilling by around 20-30 %.</li>
+                  <li>• Contributed to Data Verification, API Integration, and 7- 8
+                    React.js Component Design.</li>
+                </ol>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Coursework Subjects</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <div style="padding: 25px; background-color: hsl(45, 58%, 43%); text-align: center; border-radius: 7%;">
+                <p>Operating System</p>
+              </div>
+            </li>
+
+            <li class="clients-item">
+              <div style="padding: 38px 25px; background-color: hsl(45, 58%, 43%); text-align: center; border-radius: 7%;">
+                <p>OOPS</p>
+              </div>
+            </li>
+
+            <li class="clients-item">
+              <div style="padding: 38px 25px; background-color: hsl(45, 58%, 43%); text-align: center; border-radius: 7%;">
+                <p>DBMS</p>
+              </div>
+            </li>
+
+            <li class="clients-item">
+              <div style="padding: 25px; background-color: hsl(45, 58%, 43%); text-align: center; border-radius: 7%;">
+                <p>Computer Networks</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <div class="resume">
+          <a href="https://drive.google.com/file/d/16OZ3VoTC_8qVVeBXt5z6TO8p8p0Ss6LO/view?usp=sharing">Resume Link</a>
+        </div>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Lloyd Institute of Engineering & Technology</h4>
+
+              <span>2019 - 2023 [8.5 CGPA]</span>
+
+              <p class="timeline-text">
+                B.Tech. (CSE)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central Board of Secondary Education</h4>
+
+              <span>2018 - [83%]</span>
+
+              <p class="timeline-text">
+                Higher Secondary
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central Board of Secondary Education</h4>
+
+              <span>2016 - [95%]</span>
+
+              <p class="timeline-text">
+                Secondary
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer Intern</h4>
+
+              <span> Nov 2022–June 2023 </span>
+
+              <p class="timeline-text">
+                <ol>
+                  <li>• Collaborated on API design, development, and integration.</li>
+                  <li>• Improved codebase with Redux, reducing multi-level props
+                    drilling by around 20-30 %.</li>
+                  <li>• Contributed to Data Verification, API Integration, and 7- 8
+                    React.js Component Design.</li>
+                </ol>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SDE Intern</h4>
+
+              <span>May 2022–July 2022</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li> • ManagedUser Verification/Authentication and engineered
+                    solutions for detecting and removing fake bots and posts.
+                  </li>
+                  <li>• Successfully integrated Google Recaptcha, enhancing website
+                    security by 50 to 60 %.</li>
+                  <li>• Proficiently utilized the tech stack: HTML, CSS, JS, Bootstrap,
+                    PHP, MySQL</li>
+                </ul>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">My Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Full stack</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Front-end</button>
+            </li> -->
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Fullstack </button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Front-end</button>
+              </li> -->
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="Fullstack">
+              <a href="https://lime-worrisome-kitten.cyclic.app/">
+                
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ShopEase</h3>
+
+                <p class="project-category">Fullstack</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Fullstack">
+              <a href="https://github.com/Latika93/ExpenseVue">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://user-images.githubusercontent.com/88475404/265926076-16e399c2-1b7a-4e7a-a55a-c6099d7a2dc0.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ExpenseVue</h3>
+
+                <p class="project-category">Fullstack</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Fullstack">
+              <a href="https://github.com/Latika93/RealTimeEditor">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://user-images.githubusercontent.com/88475404/279269394-ce6996cd-4e1b-4912-a10e-fee7cea47d76.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RealTimeEditor</h3>
+
+                <p class="project-category">Fullstack</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://jumon-dashboard.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-14.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jumon-dashboard</h3>
+
+                <p class="project-category">Front-end</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="dsa">
+
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+
+              <a href="https://leetcode.com/Verma_1901530100020/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/lc.png" alt="leetcode" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Leetcode</p>
+
+                    <span class="dot"></span>
+
+                    <!-- <time datetime="2022-02-23">Fab 23, 2022</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Data structures and algorithms</h3>
+
+                  <p class="blog-text">
+                    Actively solved problems on Leetcode, with over 550+ DSA problems.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/in/latikaverma7/overlay/1635534752285/single-media-viewer/?profileId=ACoAADXiWJYBKtWYBBcBYWKu-ry5SuxjSqqSfpk">
+
+                <figure class="blog-banner-box">
+                  <img src="https://media.licdn.com/dms/image/D562DAQGZKdWFcVS4Rw/profile-treasury-image-shrink_800_800/0/1690570489402?e=1699336800&v=beta&t=45jLK45e2yYq7qtl5D88YiWY-nLPAvFijnMjvCerJwQ" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Competition</p>
+
+                    <span class="dot"></span>
+
+                    <!-- <time datetime="2022-02-23">Fab 23, 2022</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Code Storm</h3>
+
+                  <p class="blog-text">
+                    Scored 1st position at the Code Storm
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section> -->
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
