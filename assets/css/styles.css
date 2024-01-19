@@ -374,7 +374,23 @@ main {
 .avatar-box {
     background: var(--bg-gradient-onyx);
     border-radius: 20px;
+    overflow: hidden;
 }
+
+/* <style>
+  .avatar-box {
+    border-radius: 50%; 
+    overflow: hidden; 
+    width: 80px; 
+    height: 80px; 
+  }
+
+  .avatar-box img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+</style> */
 
 .info-content .name {
     color: var(--white-2);
